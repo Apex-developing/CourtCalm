@@ -36,6 +36,7 @@ html, body { background: var(--bg); color: #20352c; }
 }
 .top { color: #52655b; justify-content: center; }
 .top button { display: none; }
+.top .lang-btn { display: inline-flex; }
 .top > span { color: #55a884; text-shadow: none; }
 .hero { margin-top: clamp(48px, 12vh, 96px); text-align: center; }
 .hero .eyebrow, .eyebrow { color: #4c9b7d; }

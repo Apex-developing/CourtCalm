@@ -18,7 +18,9 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; -webkit-tap-
 .screen { min-height: 100dvh; max-width: 540px; margin: auto; padding: max(24px, env(safe-area-inset-top)) 22px calc(26px + env(safe-area-inset-bottom)); position: relative; overflow: hidden; background: radial-gradient(circle at 90% 0%, #1b2b43 0, transparent 35%), var(--bg); }
 .top { display: flex; align-items: center; gap: 9px; color: #c8d1df; font: 600 10px/1 "SF Pro Text", sans-serif; letter-spacing: 1.8px; }
 .top > span { color: var(--blue); font-size: 17px; text-shadow: 0 0 14px #8eb8ff; }
-.top button { margin-left: auto; background: transparent; color: #bac3d0; font-size: 23px; }
+.top .lang-switch { display: flex; gap: 6px; margin-left: auto; }
+.top .lang-btn { background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 5px 8px; font: 700 9px/1 "SF Pro Text", sans-serif; letter-spacing: 1.3px; color: #dbe6f5; }
+.top .lang-btn.active { background: rgba(110, 159, 255, 0.12); border-color: rgba(130, 169, 227, 0.8); color: #edf4ff; }
 .eyebrow, small { font: 600 10px/1.2 "SF Pro Text", sans-serif; letter-spacing: 1.3px; }
 .eyebrow { color: var(--blue); margin: 0 0 13px; }
 .hero { margin-top: 76px; z-index: 1; position: relative; }
